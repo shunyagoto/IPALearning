@@ -24,8 +24,9 @@ public class haikiryuActivity extends AppCompatActivity {
     public void voicestart(MediaPlayer mMediaPlayer) {
         this.mMediaPlayer.setLooping(false);
         this.mMediaPlayer.start();
-        while (flag == true) {
+        while (flag) {
             if (this.mMediaPlayer.isPlaying()) {
+                flag = true;
             } else {
                 this.mMediaPlayer.stop();
                 this.mMediaPlayer.reset();
@@ -34,4 +35,4 @@ public class haikiryuActivity extends AppCompatActivity {
             }
         }
     }
-}
+}//
