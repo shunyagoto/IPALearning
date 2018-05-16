@@ -17,6 +17,7 @@ public class haikiryuActivity extends AppCompatActivity {
     }
 
     public void onPButtonTapped(View view) {
+        flag = true;
         mMediaPlayer = MediaPlayer.create(this, R.raw.p);
         voicestart(mMediaPlayer);
     }
