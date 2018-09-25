@@ -17,4 +17,19 @@ public class IPAtableActivity extends AppCompatActivity {
         Intent intent = new Intent(this, haikiryuActivity.class);
         startActivity(intent);
     }
+
+    public void onBoinButtonTapped(View view){
+        Intent intent = new Intent(this, boinActivity.class);
+        startActivity(intent);
+    }
+
+    public void onHihaikiryuButtonTapped(View view){
+        Intent intent = new Intent(this, com.example.agoto.ipalearning.hihaikiryuActivity.class);
+        startActivity(intent);
+    }
+
+    public void onOtherButtonTapped(View view){
+        Intent intent = new Intent(this, com.example.agoto.ipalearning.otherActivity.class);
+        startActivity(intent);
+    }
 }
