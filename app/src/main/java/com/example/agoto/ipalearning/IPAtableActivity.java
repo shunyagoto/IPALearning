@@ -1,4 +1,4 @@
-package com.example.agoto.ipalearning;
+package com.example.agoto.IPAlearning;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,12 +24,12 @@ public class IPAtableActivity extends AppCompatActivity {
     }
 
     public void onHihaikiryuButtonTapped(View view){
-        Intent intent = new Intent(this, com.example.agoto.ipalearning.hihaikiryuActivity.class);
+        Intent intent = new Intent(this, com.example.agoto.IPAlearning.hihaikiryuActivity.class);
         startActivity(intent);
     }
 
     public void onOtherButtonTapped(View view){
-        Intent intent = new Intent(this, com.example.agoto.ipalearning.otherActivity.class);
+        Intent intent = new Intent(this, com.example.agoto.IPAlearning.otherActivity.class);
         startActivity(intent);
     }
 }

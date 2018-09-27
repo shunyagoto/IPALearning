@@ -1,4 +1,4 @@
-package com.example.agoto.ipalearning;
+package com.example.agoto.IPAlearning;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
